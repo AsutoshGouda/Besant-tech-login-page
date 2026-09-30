@@ -1,0 +1,45 @@
+* { box-sizing: border-box; }
+body {
+			min-height: 100vh;
+			margin: 0;
+			display: grid;
+			place-items: center;
+			padding: 24px;
+			background: #f1f5f9;
+			color: #1e293b;
+			font-family: Arial, sans-serif;
+		}
+		.login-card {
+			width: min(100%, 400px);
+			padding: 36px;
+			background: #fff;
+			border-radius: 12px;
+			box-shadow: 0 12px 32px rgb(15 23 42 / 10%);
+		}
+            
+		h1 { margin: 0 0 8px; font-size: 28px; }
+		.intro { margin: 0 0 28px; color: #64748b; }
+		label { display: block; margin: 18px 0 8px; font-weight: 600; }
+		input {
+			width: 100%;
+			padding: 12px 14px;
+			border: 1px solid #cbd5e1;
+			border-radius: 6px;
+			font: inherit;
+		}
+		input:focus { outline: 2px solid #2563eb; outline-offset: 1px; }
+		button {
+			width: 100%;
+			margin-top: 24px;
+			padding: 13px;
+			border: 0;
+			border-radius: 6px;
+			background: #2563eb;
+			color: #fff;
+			font: inherit;
+			font-weight: 700;
+			cursor: pointer;
+		}
+		button:hover { background: #1d4ed8; }
+		.signup { margin: 22px 0 0; text-align: center; color: #64748b; }
+		a { color: #2563eb; }
